@@ -53,8 +53,8 @@ h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-s
 h2{font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: inherit;text-shadow: 6px;color: black;}
 p{font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: unset;text-shadow: 6px;color: white;}
 dl{padding: 5px;}
-dt{padding: 5px;text-align: left;font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
-dd{padding: 5px;text-align: left;font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;text-shadow: 6px;}
+dt{padding: 5px;text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+dd{padding: 5px;text-align: left;font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;text-shadow: 6px;}
 thead{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-align: left;}
 tbody{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;text-align: left;}
 tfoot{font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: initial;text-shadow: 6px;text-align: left;}
