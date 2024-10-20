@@ -19,7 +19,7 @@ label{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Ari
 input{padding: 5px;width: 300px;border-radius: 10px 10px;margin: auto;text-align: left;font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: oblique;text-shadow: 6px;color: black;background-color: snow;border: 5px solid blue;}
 .color1{gap: 5px;padding: 5px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;width: 600px;margin: auto;border-radius: 10px 10px;background-color: black;box-shadow: 8px 8px 8px white;}
 .color2{gap: 5px;padding: 5px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;width: 700px;margin: auto;border-radius: 10px 10px;background-color: rgb(75, 54, 54);box-shadow: 8px 8px 8px yellow;}
-.color3{gap: 5px;padding: 5px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;width: 800px;margin: auto;border-radius: 10px 10px;background-color: blueviolet;box-shadow: 8px 8px 8px white;}
+.color3{gap: 5px;padding: 5px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;width: 900px;margin: auto;border-radius: 10px 10px;background-color: blueviolet;box-shadow: 8px 8px 8px white;}
 .color4{gap: 5px;padding: 5px;display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;width: 900px;margin: auto;border-radius: 10px 10px;background-color: rgb(110, 87, 58);box-shadow: 8px 8px 8px red;}
 select{width: 200px;margin: auto;border-radius: 10px 10px;padding: 10px;background-color: black;color: yellow;border: 6px solid white;box-shadow: 8px 8px 8px yellow;font-size: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: initial;text-shadow: 6px;}
 textarea{height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;background-color: white;border: 6px solid red;color: black;padding: 20px;font-size: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: initial;text-shadow: 6px;}
@@ -28,7 +28,7 @@ nav{padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;align-items
 footer{padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
 #relogio{padding: 20px;width: 250px;border-radius: 10px 10px;margin: auto;font-family: 'Times New Roman', Times, serif;font-style: oblique;font-size: 20px;text-shadow: 6px;color: white;background-color: brown;border: 6px solid white;box-shadow: 8px 8px 8px brown;}
 .summary:hover{transform: scale(0.8s);transition: transform(1.02);}
-.time:hover{transform: scale(1.03s);transition: transform(0.7);}
+.time:hover{transform: scale(1.03);transition: transform(0.7s);}
 </style>
 <body>
     <div class="summary"><div id="text"><details><summary style="background-color: black;color: white;border: 6px solid white;box-shadow: 8px 8px 8px yellow;">Formulário</summary>
@@ -37,8 +37,8 @@ footer{padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;align-it
     <h1><big>Cadastro</big></h1>
     <br>
     <div class="time">
-        <div id="relogio"></div>
-    </div>
+        <div id="relogio">
+    </div></div>
     <br>
     <fieldset>
     <label for="NOME">NOME</label>
@@ -189,10 +189,10 @@ footer{padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;align-it
     </fieldset>
     <br>
     <nav style="background-color: white;">
-    <p>Retorne para minha <a href="index.html" target="_blank" rel="external" style="background-color: aqua;color: black;border: 5px solid white;border-radius: 10px 10px;text-shadow: 6px;text-decoration: none;">1ªPágina</a></p>
+    <p style="color: black;">Retorne para minha <a href="index.html" target="_blank" rel="external" style="background-color: aqua;color: black;border: 5px solid white;border-radius: 10px 10px;text-shadow: 6px;text-decoration: none;">1ªPágina</a></p>
     </nav>
     <br>
-    <footer>
+    <footer style="background-color: cadetblue;">
     @GuilhermeBarbosadasilva,todos os direitos reservados.
     </footer>
     </form>

@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Nome = htmlspecialchars($_POST['Nome']);
+    $Nome = htmlspecialchars($_POST['NOME']);
     $Idade = htmlspecialchars($_POST['Idade']);
     $Email = htmlspecialchars($_POST['Email']);
     $Telefone = htmlspecialchars($_POST['Telefone']);
